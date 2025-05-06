@@ -1,0 +1,66 @@
+/*Alex Cen Feng*/
+ */
+body {
+    font-family: Arial, sans-serif;
+}
+
+header, section, footer {
+    margin: auto;
+    max-width: 800px;
+    text-align: center;
+    padding: 20px;
+    background: white;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+}
+
+p {
+    line-height: 1.6;
+}
+
+footer {
+    color: grey;
+}
+
+/* ----------------------------------------
+   LEADERBOARD TABLE STYLES
+---------------------------------------- */
+
+#leaderboardTable {
+  border-collapse: collapse;
+  margin: 0 auto;
+  width: 80%;
+}
+
+#leaderboardTable th,
+#leaderboardTable td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+#leaderboardTable th {
+  background-color: #f2f2f2;
+}
+
+#leaderboardTable tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+#leaderboardTable tr:hover {
+  background-color: #ddd;
+}
